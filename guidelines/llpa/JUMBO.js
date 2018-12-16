@@ -1,6 +1,7 @@
 /* eslint indent:0 */
 module.exports = (scenario) => {
   //#region Auto-Adjustments
+  //23432
   scenario.startRule('Credit Score');
   //#GRID
   if (scenario.creditScore >= 800) {
